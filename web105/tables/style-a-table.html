@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="style-a-table" href="style-a-table.html">
+<link rel="calendar" href="calendar.html">
+<title>Styling a Table</title>
+<style>
+     table,
+                td,
+                th {
+                    border: 1px solid black;
+                }
+th {
+            color:  rgb(132, 173, 189);
+            text-align: center;
+            padding: 15px;
+                }
+        
+        .headercolumn th {
+            text-align: center;
+           
+        }
+      
+           
+        
+        
+        .headercolumn td {
+            text-align: right;
+            
+            
+        }
+        table {
+            width: 90%;
+            margin: 10px auto;
+            border-spacing: 10px;
+        }
+        
+        .oddrow {
+            background: rgba(209, 187, 187, 0.7)
+        }
+    </style>
+
+</head>
+
+
+
+
+ 
+<body>
+    <div class="container">
+        <header>
+      <h1>Style a Table</h1>
+        <nav>
+                <a href="index.html">Basic Table</a>
+                <a href="style-a-table.html">Styling a Table</a>
+                <a href="calendar.html">Calendar</a>
+            </nav>
+        </header>
+        <main>
+            <table>
+<tr class="headerrow">
+<th></th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+
+</tr>
+<tr class="headercolumn oddrow">
+    <th>Header</th>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+</tr>
+
+<tr class="headercolumn">
+    <th>Header</th>
+    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                </tr>
+                <tr class="headercolumn oddrow">
+                    <th> Header</th>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+
+                </tr>
+                <tr class="headercolumn">
+                    <th> Header</th>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                    <td> Cell</td>
+                </tr>
+
+            </table>
+
+            </main>
+
+        </div>
+        </body>
+        </html>

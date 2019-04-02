@@ -1,0 +1,71 @@
+
+body {
+    background:url("feathers.jpg");
+    font-family:'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align:left;
+    
+}
+main {
+    padding:20px;
+}
+ h1 {
+     font-family:Arial, Helvetica, sans-serif;
+     font-size:300%;
+     text-align:center;
+ }
+ h2 {
+    font-family:Arial, Helvetica, sans-serif;
+     font-size:250%;
+     text-align:center;
+ }
+
+#supplies {
+    width:45%;
+    height:auto;
+    padding:20px;
+    float:right;
+    
+}
+
+#kid-art {
+    width:45%;
+    height:auto;
+    padding:20px;  
+    float:left;
+}
+ nav { 
+     text-align:right;
+     padding:20px
+
+ }
+ nav a {
+    padding: 15px 10px;
+    margin:15px 25px;
+    background:black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color:white;
+    
+   
+ }
+ nav a:visted {
+    color:thistle;
+ }
+ nav a:hover{
+     color:teal;
+ }
+   .container  {
+      
+        border: 10px solid black;
+        padding: 30px;
+        margin:30px auto;
+        max-width:1060px;  
+        border-radius:30px;
+        background:rgba(4, 236, 213, 0.8) none repeat scroll 0 0;
+        
+        
+    
+   }
+

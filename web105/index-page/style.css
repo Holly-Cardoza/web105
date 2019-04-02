@@ -1,0 +1,17 @@
+body{
+    background:rgb(0, 0, 0)
+}
+
+h1{
+    text-align: center;
+
+}
+.container{
+    
+        max-width: 1060px;
+        border: 5px solid white;
+        margin: 30px auto;
+        padding: 15px;
+        border-radius: 20px;
+        background: rgb(221, 160, 221);
+}

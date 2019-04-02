@@ -1,0 +1,90 @@
+#serif{
+    font-family: 'Halant', serif;
+}
+#sans-serif{
+    font-family: 'Encode Sans', sans-serif;
+}
+#display{
+    font-family: 'Fontdiner Swanky', cursive;
+}
+#handwritting{
+    font-family: 'Crafty Girls', cursive;
+}
+#monospace{
+    font-family: 'Space Mono', monospace;
+}
+body{
+    font-family:"'Encode Sans', sans-serif";
+    background-image: url(mountain-stars.jpg);
+    color: black;
+}    
+
+
+.container {
+    max-width: 1060px;
+    border: 5px solid black;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background:rgb(255, 255, 255,.50);
+}
+
+nav{ padding:20px
+
+}
+nav a{
+    padding: 15px 15px;
+    margin:15px 25px;
+    background:black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color:white;
+    text-align: center;
+}
+ nav a:visited
+ {color:rgb(43, 174, 226);}
+
+   
+     nav a:hover{
+         color:white;
+
+}
+
+
+
+
+
+
+h1{
+    text-align: center;
+    font-size:500%;
+    background: color=rgb(18, 175, 154)
+}
+
+
+h2{
+ 
+    font-size:450%
+}
+h3{
+    
+    font-size:400%
+}
+h4{
+    
+    font-size:350%
+    
+}
+h5{
+    
+    font-size:300%
+}
+h6{
+    
+    font-size:250%
+}
+p{
+  
+    font-size:200%
+}

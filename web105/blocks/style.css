@@ -1,0 +1,51 @@
+#blocks img{
+padding:5px;
+margin:5px;
+border:2px solid blue;
+}
+#inlineblocks img{
+    padding:5px;
+    margin:5px;
+    border:2px solid blue;
+    box-sizing:border-box;
+   
+}
+img{
+    width:15%;
+    height:auto;
+}
+.container{
+    max-width: 1060px;
+    padding: 15px;
+    margin: 4px auto;
+    background: white;
+    text-align: center;
+}
+h1,
+h2{
+    text-align: center;
+}
+nav { 
+    
+    padding:50px
+}
+
+nav li{
+    display: inline-block;
+}
+nav a{
+    padding: 15px 10px;
+    margin:15px 25px;
+    background: pink;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color:black;
+}
+nav a:visted {
+    color:blue;
+ }
+ nav a:hover{
+     background: blue;
+     color: whitesmoke;
+ }
