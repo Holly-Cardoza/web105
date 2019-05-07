@@ -1,0 +1,94 @@
+
+.header {
+    height: 140px;
+    width: 960px;
+    border-radius: 5px;   
+    text-align: center;
+    margin: 20px auto;
+    background: rgb(97, 97, 131);
+    
+}
+.container {
+    width: 960px;
+    min-height: 1300px;
+    background: rgb(97, 97, 131);
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    color:whitesmoke;
+}
+h1,h2{
+    text-align: center;
+font-family: 'Lemonada', cursive;
+    padding: 10px;
+    
+}
+h1{
+    padding-bottom: 20px;
+}
+
+
+nav {
+    text-align: center;
+
+
+}nav a {
+    padding: 15px 10px;
+    margin:15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color:black;   
+    background-color: rgb(108, 108, 201);
+}
+img{
+    width:40%;
+    height:auto;
+    padding-top: 20px;
+}
+
+#inlineblocks img{
+    padding:5px;
+    margin:5px;
+    border:2px solid black;
+    box-sizing:border-box;
+    width:20%;
+    height:100%;
+    float:left;
+}
+#blocks p{
+    padding:10px;
+    margin:5px;
+    border:5px solid black;
+    box-sizing:border-box;
+    width:20%;
+    height:auto;
+    float:left;
+    
+}
+.top{
+   text-align: center;
+   color:whitesmoke;
+   background-color: rgb(108, 108, 201);
+   padding:10px;
+   
+
+}
+
+#dirMapLink{
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Arima Madurai', cursive;
+    
+}
+
+#largeMapLink{
+    color:whitesmoke;
+font-size:20px;
+font-family: 'Arima Madurai', cursive;
+}

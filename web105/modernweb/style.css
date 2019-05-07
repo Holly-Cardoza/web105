@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(18, 19, 18);
+}
+header{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h2,h3,p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+section{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    max-width: 1000px;
+    margin:0 auto;
+
+   
+}
+section.intro{
+    background-color:rgb(206, 186, 151);
+    text-align:center;
+    
+}
+section.prices{
+    background-color:rgb(130, 173, 173);
+    
+}
+section.contact{
+background-color: lightslategray;
+
+
+}
+section.last{
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 1px;
+  background-color:pink;
+}
+.container-column{
+    
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+  
+.column-left {
+    float:left;
+    width:20%;
+    text-align: left;
+    
+    
+   }
+  .column-center {
+    float:center;
+    width:70%;
+    text-align: center;
+    padding-top:5px;
+    
+  }
+  .column-right {
+    width:170%;
+    text-align: right;
+    float:center;
+   
+    
+  }
+
+  footer{
+    margin:0;
+    padding-top: 60px;
+    padding-bottom:10px;
+    color:rgb(184, 142, 184);
+    float:right;
+}
